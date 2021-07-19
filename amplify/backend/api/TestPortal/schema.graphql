@@ -1,6 +1,5 @@
-type Userdata @model @auth(rules: [{allow: public}]) {
+type Note @model {
   id: ID!
-  FirstName: String
-  LastName: String
-  Email: AWSEmail
+  name: String!
+  description: String
 }
