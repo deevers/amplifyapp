@@ -1,6 +1,6 @@
 {
   "api": {
-    "TestPortal": {
+    "notesapp": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -12,11 +12,7 @@
               "description": "demo"
             }
           },
-          "additionalAuthenticationProviders": [
-            {
-              "authenticationType": "AWS_IAM"
-            }
-          ]
+          "additionalAuthenticationProviders": []
         }
       }
     }
